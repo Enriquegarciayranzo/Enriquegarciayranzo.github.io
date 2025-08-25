@@ -1,0 +1,219 @@
+{
+  "site": {
+    "name": "Sitio de Mi Hijo"
+  },
+  "hero": {
+    "tag": "#Aprender • #Jugar • #Crecer",
+    "title": "Hola, soy Enrique Garcia Yranzo",
+    "subtitle": "Estudiante curioso y deportista constante. Aquí está mi camino.",
+    "image": "img/hero.jpg",
+    "button1": {
+      "text": "Ver Estudios",
+      "to": "estudios"
+    },
+    "button2": {
+      "text": "Ver Deporte",
+      "to": "deporte"
+    }
+  },
+  "sections": [
+    {
+      "id": "estudios",
+      "title": "Estudios",
+      "description": "Resumen académico y subapartados por etapas.",
+      "summary": "<ul class='list'><li>Interés por ciencias y tecnología</li><li>Participación en ferias</li><li>Olimpiadas de mates</li></ul>",
+      "subsections": [
+        {
+          "id": "primaria",
+          "title": "Primaria",
+          "subtitle": "Hábitos y curiosidad",
+          "body": "<p>Lectura diaria, cálculo mental y experimentos de ciencias.</p>",
+          "items": [
+            {
+              "badge": "Lectura",
+              "title": "Reto 20 min/día",
+              "text": "Registro semanal con libros leídos."
+            },
+            {
+              "badge": "Ciencia",
+              "title": "Experimentos",
+              "text": "Germinación, volcanes caseros, densidad."
+            },
+            {
+              "badge": "Mates",
+              "title": "Retos lógicos",
+              "text": "Juegos de patrones y fracciones."
+            }
+          ]
+        },
+        {
+          "id": "secundaria",
+          "title": "Secundaria",
+          "subtitle": "Pensamiento lógico y proyectos",
+          "body": "<p>Club de programación (Python/micro:bit), debate escolar y laboratorio.</p>",
+          "items": [
+            {
+              "badge": "Tecnología",
+              "title": "Robot seguidor",
+              "text": "Proyecto con sensores IR."
+            },
+            {
+              "badge": "Olimpiada",
+              "title": "Matemáticas",
+              "text": "Fase local 2024."
+            },
+            {
+              "badge": "Idiomas",
+              "title": "Inglés B1",
+              "text": "Práctica 5 días/semana."
+            }
+          ]
+        },
+        {
+          "id": "bachillerato",
+          "title": "Bachillerato",
+          "subtitle": "Ciencias + Economía",
+          "body": "<p>Itinerario científico con economía y estadística aplicada.</p>",
+          "items": [
+            {
+              "badge": "Investigación",
+              "title": "Proyecto de datos",
+              "text": "Predicción de rendimiento deportivo."
+            },
+            {
+              "badge": "Trabajo en grupo",
+              "title": "Energía solar",
+              "text": "Coste/beneficio para el instituto."
+            },
+            {
+              "badge": "Certificación",
+              "title": "B2 Inglés",
+              "text": "Preparación anual."
+            }
+          ]
+        },
+        {
+          "id": "logros",
+          "title": "Logros y proyectos",
+          "subtitle": "Selección de hitos",
+          "items": [
+            {
+              "badge": "Feria",
+              "title": "Ciencia local",
+              "text": "Presentación de robot."
+            },
+            {
+              "badge": "Lectura",
+              "title": "12 libros/año",
+              "text": "Reseñas trimestrales."
+            },
+            {
+              "badge": "Mates",
+              "title": "Olimpiada",
+              "text": "Mención especial."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deporte",
+      "title": "Deporte",
+      "description": "Entrenamientos, competiciones y objetivos por modalidad.",
+      "summary": "<p>Constancia y juego en equipo: fútbol, natación y atletismo.</p>",
+      "subsections": [
+        {
+          "id": "futbol",
+          "title": "Fútbol",
+          "subtitle": "Mediocentro",
+          "body": "<p>Entrenos 3/semana. Objetivo: +10 asistencias.</p>",
+          "items": [
+            {
+              "badge": "Entreno",
+              "title": "Pase corto",
+              "text": "Rondos y posesión."
+            },
+            {
+              "badge": "Partido",
+              "title": "Presión alta",
+              "text": "Recuperación en campo rival."
+            },
+            {
+              "badge": "Objetivo",
+              "title": "+10 asist.",
+              "text": "Visión y desmarque."
+            }
+          ]
+        },
+        {
+          "id": "natacion",
+          "title": "Natación",
+          "subtitle": "Libre y espalda",
+          "body": "<p>Trabajo de respiración y virajes. 2 sesiones/semana.</p>",
+          "items": [
+            {
+              "badge": "Técnica",
+              "title": "Virajes",
+              "text": "Mejora continua."
+            },
+            {
+              "badge": "Marca",
+              "title": "100m libre",
+              "text": "Objetivo: &lt; 1:20."
+            },
+            {
+              "badge": "Competición",
+              "title": "Escolar primavera",
+              "text": "Participación."
+            }
+          ]
+        },
+        {
+          "id": "atletismo",
+          "title": "Atletismo",
+          "subtitle": "Resistencia",
+          "body": "<p>Series, rodajes controlados y fuerza 1/semana.</p>",
+          "items": [
+            {
+              "badge": "Test",
+              "title": "1000m",
+              "text": "3'45'' → objetivo 3'35''"
+            },
+            {
+              "badge": "Fuerza",
+              "title": "Gimnasio",
+              "text": "Técnica de zancada."
+            },
+            {
+              "badge": "Cross",
+              "title": "2,5 km",
+              "text": "Top 5 escolar."
+            }
+          ]
+        },
+        {
+          "id": "logros",
+          "title": "Logros deportivos",
+          "subtitle": "Mejores momentos",
+          "items": [
+            {
+              "badge": "Fútbol",
+              "title": "Copa escolar",
+              "text": "Semifinalista."
+            },
+            {
+              "badge": "Atletismo",
+              "title": "Cross",
+              "text": "Mejor marca personal."
+            },
+            {
+              "badge": "Natación",
+              "title": "100m libre",
+              "text": "Progreso técnico."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
