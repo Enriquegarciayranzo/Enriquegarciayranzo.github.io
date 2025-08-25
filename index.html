@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guillermo García | Página personal</title>
+  <style>
+    :root { --bg:#10141a; --card:#161b22; --txt:#e8eef6; --muted:#9fb0c3; --brand:#4fc3f7; }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--txt);}
+    a{color:var(--brand);text-decoration:none}
+    .wrap{max-width:900px;margin:auto;padding:24px}
+    header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 0;border-bottom:1px solid #223}
+    h1{margin:0;font-size:28px}
+    nav a{margin-left:12px;color:var(--txt);opacity:.9}
+    .hero{padding:28px 0}
+    .hero h2{font-size:40px;margin:10px 0}
+    .hero p{color:var(--muted);font-size:18px;margin:8px 0 0}
+    section{margin:28px 0;padding:18px;border:1px solid #223;border-radius:12px;background:var(--card)}
+    h3{margin-top:0}
+    ul{margin:0;padding-left:18px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media (max-width:720px){.grid{grid-template-columns:1fr} .hero h2{font-size:32px}}
+    .pill{display:inline-block;background:#223;border:1px solid #2b3440;padding:6px 10px;border-radius:999px;margin:4px 6px 0 0;color:var(--muted)}
+    footer{opacity:.7;text-align:center;margin:24px 0}
+    .btn{display:inline-block;background:var(--brand);color:#002233;padding:10px 14px;border-radius:12px;font-weight:700}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Guillermo García</h1>
+      <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Economista y profesor universitario</h2>
+      <p>Enseño Economía con enfoque práctico y diseño materiales claros para tomar decisiones con datos.</p>
+      <p><a class="btn" href="#contacto">Hablemos</a></p>
+    </section>
+
+    <section id="sobre-mi">
+      <h3>Sobre mí</h3>
+      <div class="grid">
+        <div>
+          <p>Soy profesor de Economía en Zaragoza. Me interesan la economía digital, el forecasting y el uso de la IA en docencia.</p>
+          <p>Me gusta explicar lo complejo de forma sencilla y aplicarlo a proyectos reales.</p>
+        </div>
+        <div>
+          <div class="pill">Macroeconomía</div>
+          <div class="pill">Econometría</div>
+          <div class="pill">Power BI</div>
+          <div class="pill">R / Gretl</div>
+          <div class="pill">IA aplicada</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <h3>Proyectos destacados</h3>
+      <ul>
+        <li>Digital Communication & Marketing Strategy – curso práctico con IA.</li>
+        <li>Forecasting con ARIMA/SARIMA – modelización de series y escenarios.</li>
+        <li>Start‑up Dashboards – KPIs para emprendedores con Power BI.</li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h3>Contacto</h3>
+      <p>Email: <a href="mailto:guillermo@email.com">guillermo@email.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/">/in/guillermo</a></p>
+    </section>
+
+    <footer>© <span id="year"></span> Guillermo García</footer>
+  </div>
+
+  <!-- EDITA FÁCIL: cambia solo los textos de arriba (nombre, titular, párrafos y enlaces). -->
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
