@@ -5,8 +5,13 @@
     "title": "Web sobre Enrique Garcia Yranzo",
     "subtitle": "Estudiante curioso y deportista constante. Aquí está mi camino.",
     "image": "img/hero.jpg",
-    "button1": { "text": "Ver Estudios", "to": "estudios" },
-    "button2": { "text": "Ver Deporte", "to": "deporte" }
+    "buttons": [
+      { "text": "Ver Estudios", "to": "estudios" },
+      { "text": "Ver Deporte", "to": "deporte" },
+      { "text": "Ver Hobbies", "to": "hobbies" },
+      { "text": "Ver Proyectos", "to": "proyectos" },
+      { "text": "Ver Contacto", "to": "contacto" }
+    ]
   },
   "sections": [
     {
