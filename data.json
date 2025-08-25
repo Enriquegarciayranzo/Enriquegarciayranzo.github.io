@@ -1,0 +1,114 @@
+{
+  "site": { "name": "Enrique Garcia Yranzo" },
+  "hero": {
+    "tag": "#Aprender • #Jugar • #Crecer",
+    "title": "Web sobre Enrique Garcia Yranzo",
+    "subtitle": "Estudiante curioso y deportista constante. Aquí está mi camino.",
+    "image": "img/hero.jpg",
+    "button1": { "text": "Ver Estudios", "to": "estudios" },
+    "button2": { "text": "Ver Deporte", "to": "deporte" }
+  },
+  "sections": [
+    {
+      "id": "estudios",
+      "title": "Estudios",
+      "description": "Resumen académico y subapartados por etapas.",
+      "summary": "<ul class='list'><li>Interés por ciencias y tecnología</li><li>Participación en ferias</li><li>Olimpiadas de mates</li></ul>",
+      "subsections": [
+        { "id": "primaria", "title": "Primaria", "subtitle": "Hábitos y curiosidad" },
+        { "id": "secundaria", "title": "Secundaria", "subtitle": "Pensamiento lógico y proyectos" },
+        { "id": "bachillerato", "title": "Bachillerato", "subtitle": "Ciencias + Economía" },
+        { "id": "logros", "title": "Logros y proyectos", "subtitle": "Selección de hitos" }
+      ]
+    },
+    {
+      "id": "deporte",
+      "title": "Deporte",
+      "description": "Entrenamientos, competiciones y objetivos por modalidad.",
+      "summary": "<p>Constancia y juego en equipo: fútbol, natación y atletismo.</p>",
+      "subsections": [
+        { "id": "futbol", "title": "Fútbol", "subtitle": "Mediocentro" },
+        { "id": "natacion", "title": "Natación", "subtitle": "Libre y espalda" },
+        { "id": "atletismo", "title": "Atletismo", "subtitle": "Resistencia" },
+        { "id": "logros", "title": "Logros deportivos", "subtitle": "Mejores momentos" }
+      ]
+    },
+    {
+      "id": "hobbies",
+      "title": "Hobbies",
+      "description": "Tiempo libre y pasiones",
+      "summary": "<p>Aquí muestro lo que me divierte y motiva.</p>",
+      "subsections": [
+        {
+          "id": "musica",
+          "title": "Música",
+          "subtitle": "Escuchar y aprender",
+          "items": [
+            { "badge": "Guitarra", "title": "Clases básicas", "text": "Practicando acordes." },
+            { "badge": "Favorito", "title": "Rock", "text": "Grupos favoritos: Queen, Imagine Dragons." }
+          ]
+        },
+        {
+          "id": "videojuegos",
+          "title": "Videojuegos",
+          "subtitle": "Diversión y estrategia",
+          "items": [
+            { "badge": "Estrategia", "title": "Minecraft", "text": "Construcciones y mods." },
+            { "badge": "Deporte", "title": "FIFA", "text": "Partidos con amigos." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos Personales",
+      "description": "Pequeños retos y creaciones",
+      "summary": "<p>Algunos proyectos que muestran creatividad y curiosidad.</p>",
+      "subsections": [
+        {
+          "id": "ciencia",
+          "title": "Ciencia",
+          "subtitle": "Explorando el mundo",
+          "items": [
+            { "badge": "Experimento", "title": "Volcán casero", "text": "Con bicarbonato y vinagre." },
+            { "badge": "Robótica", "title": "Mini robot", "text": "Con sensores básicos." }
+          ]
+        },
+        {
+          "id": "arte",
+          "title": "Arte",
+          "subtitle": "Expresando ideas",
+          "items": [
+            { "badge": "Dibujo", "title": "Retratos", "text": "Lápiz y acuarela." },
+            { "badge": "Digital", "title": "Pixel art", "text": "Hecho en apps sencillas." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contacto",
+      "title": "Contacto",
+      "description": "Formas de comunicación y enlaces",
+      "summary": "<p>Puedes ponerte en contacto conmigo a través de estas vías:</p>",
+      "subsections": [
+        {
+          "id": "email",
+          "title": "Correo electrónico",
+          "subtitle": "Para consultas rápidas",
+          "items": [
+            { "badge": "Email", "title": "alex@example.com", "text": "Respondo en 24h." }
+          ]
+        },
+        {
+          "id": "redes",
+          "title": "Redes sociales",
+          "subtitle": "Sígueme en mis perfiles",
+          "items": [
+            { "badge": "LinkedIn", "title": "Perfil profesional", "text": "<a href='https://linkedin.com'>linkedin.com</a>" },
+            { "badge": "GitHub", "title": "Proyectos y código", "text": "<a href='https://github.com'>github.com</a>" }
+          ]
+        }
+      ]
+    }
+  ]
+}
