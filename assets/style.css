@@ -42,3 +42,9 @@ h1{font-size: clamp(28px, 5vw, 56px);line-height:1.05;margin:12px 0}
 .breadcrumbs{font-size:14px;color:var(--muted);margin:18px 0}
 .breadcrumbs a{color:var(--muted)}
 .foot{opacity:.75;text-align:center;margin:40px 0 20px}
+.hero-img img {
+  max-width: 250px;   /* ancho máximo de la foto */
+  height: auto;       /* mantiene la proporción */
+  border-radius: 12px; /* esquinas redondeadas */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* sombra opcional */
+}
