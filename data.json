@@ -1,16 +1,14 @@
 {
   "site": { "name": "Enrique Garcia Yranzo" },
-  "hero": {
+   "hero": {
     "tag": "#Aprender • #Jugar • #Crecer",
     "title": "Web sobre Enrique Garcia Yranzo",
     "subtitle": "Estudiante curioso y deportista constante. Aquí está mi camino.",
-    "buttons": [
-      { "text": "Ver Estudios", "to": "estudios" },
-      { "text": "Ver Deporte", "to": "deporte" },
-      { "text": "Ver Hobbies", "to": "hobbies" },
-      { "text": "Ver Proyectos", "to": "proyectos" },
-      { "text": "Ver Contacto", "to": "contacto" }
-    ]
+    "button1": { "text": "Ver Estudios",  "to": "estudios"  },
+    "button2": { "text": "Ver Deporte",   "to": "deporte"   },
+    "button3": { "text": "Ver Hobbies",   "to": "hobbies"   },
+    "button4": { "text": "Ver Proyectos", "to": "proyectos" },
+    "button5": { "text": "Ver Contacto",  "to": "contacto"  }
   },
   "sections": [
     {
