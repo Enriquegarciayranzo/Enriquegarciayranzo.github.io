@@ -31,8 +31,19 @@ function renderHero(){
   document.getElementById('hero-title').textContent = h.title;
   document.getElementById('hero-sub').textContent = h.subtitle;
   document.getElementById('hero-img').src = h.image || '';
-  const b1 = document.getElementById('hero-btn-1'); b1.textContent = h.button1.text; b1.href = `#${h.button1.to}`;
-  const b2 = document.getElementById('hero-btn-2'); b2.textContent = h.button2.text; b2.href = `#${h.button2.to}`;
+
+  // manejar hasta 5 botones
+  for (let i = 1; i <= 5; i++) {
+    const cfg = h[`button${i}`];
+    const el = document.getElementById(`hero-btn-${i}`);
+    if (cfg && el) {
+      el.textContent = cfg.text;
+      el.href = `#${cfg.to}`;
+      el.style.display = '';
+    } else if (el) {
+      el.style.display = 'none'; // oculta si no existe
+    }
+  }
 }
 
 function route(){
