@@ -4,7 +4,6 @@
     "tag": "#Aprender • #Jugar • #Crecer",
     "title": "Web sobre Enrique Garcia Yranzo",
     "subtitle": "Estudiante curioso y deportista constante. Aquí está mi camino.",
-    "image": "img/hero.jpg",
     "buttons": [
       { "text": "Ver Estudios", "to": "estudios" },
       { "text": "Ver Deporte", "to": "deporte" },
