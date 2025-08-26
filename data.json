@@ -1,6 +1,6 @@
 {
   "site": { "name": "Enrique Garcia Yranzo" },
-   "hero": {
+  "hero": {
     "tag": "#Aprender • #Jugar • #Crecer",
     "title": "Web sobre Enrique Garcia Yranzo",
     "subtitle": "Estudiante curioso y deportista constante. Aquí está mi camino.",
@@ -14,13 +14,31 @@
     {
       "id": "estudios",
       "title": "Estudios",
-      "description": "Resumen académico y subapartados por etapas.",
-      "summary": "<ul class='list'><li>Interés por ciencias y tecnología</li><li>Participación en ferias</li><li>Olimpiadas de mates</li></ul>",
+      "description": "Formación académica reciente.",
+      "summary": "<ul class='list'>
+        <li>Bachillerato de Ciencias (Dominicos)</li>
+        <li>Doble Grado: Ingeniería Informática + Inteligencia Artificial</li>
+        <li>Máster en Inteligencia Artificial (UPM)</li>
+      </ul>",
       "subsections": [
-        { "id": "primaria", "title": "Primaria", "subtitle": "Hábitos y curiosidad" },
-        { "id": "secundaria", "title": "Secundaria", "subtitle": "Pensamiento lógico y proyectos" },
-        { "id": "bachillerato", "title": "Bachillerato", "subtitle": "Ciencias + Economía" },
-        { "id": "logros", "title": "Logros y proyectos", "subtitle": "Selección de hitos" }
+        {
+          "id": "bachillerato",
+          "title": "Bachillerato",
+          "subtitle": "Graduado en la Rama de Ciencias en el Instituto Dominicos.",
+          "body": "<p>Especialización en matemáticas, física y química. Participación en proyectos de investigación escolar y competiciones científicas.</p>"
+        },
+        {
+          "id": "carrera",
+          "title": "Grado",
+          "subtitle": "Doble Grado en Ingeniería Informática + Inteligencia Artificial.",
+          "body": "<p>Formación en programación, estructuras de datos, sistemas operativos y redes, combinada con asignaturas de machine learning, procesamiento del lenguaje natural y visión por computador. Desarrollo de proyectos colaborativos y prácticas en empresa tecnológica.</p>"
+        },
+        {
+          "id": "master",
+          "title": "Máster",
+          "subtitle": "Máster en Inteligencia Artificial — Universidad Politécnica de Madrid (UPM).",
+          "body": "<p>Enfoque avanzado en deep learning, big data, sistemas multiagente y ética de la IA. Trabajo final aplicado a la integración de modelos de aprendizaje automático en entornos reales.</p>"
+        }
       ]
     },
     {
