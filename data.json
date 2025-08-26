@@ -15,11 +15,7 @@
       "id": "estudios",
       "title": "Estudios",
       "description": "Formación académica reciente.",
-      "summary": "<ul class='list'>
-        <li>Bachillerato de Ciencias (Dominicos)</li>
-        <li>Doble Grado: Ingeniería Informática + Inteligencia Artificial</li>
-        <li>Máster en Inteligencia Artificial (UPM)</li>
-      </ul>",
+      "summary": "<ul class='list'><li>Bachillerato de Ciencias (Dominicos)</li><li>Doble Grado: Ingeniería Informática + Inteligencia Artificial</li><li>Máster en Inteligencia Artificial (UPM)</li></ul>",
       "subsections": [
         {
           "id": "bachillerato",
