@@ -159,28 +159,25 @@
 }
  ,
     {
-      "id": "contacto",
-      "title": "Contacto",
-      "description": "Formas de comunicación y enlaces",
-      "summary": "<p>Puedes ponerte en contacto conmigo a través de estas vías:</p>",
-      "subsections": [
-        {
-          "id": "email",
-          "title": "Correo electrónico",
-          "subtitle": "Para consultas rápidas",
-          "items": [
-            { "badge": "Email", "title": "alex@example.com", "text": "Respondo en 24h." }
-          ]
-        },
-        {
-          "id": "redes",
-          "title": "Redes sociales",
-          "subtitle": "Sígueme en mis perfiles",
-          "items": [
-            { "badge": "LinkedIn", "title": "Perfil profesional", "text": "<a href='https://linkedin.com'>linkedin.com</a>" },
-            { "badge": "GitHub", "title": "Proyectos y código", "text": "<a href='https://github.com'>github.com</a>" }
-          ]
-        }
+  "id": "contacto",
+  "title": "Contacto",
+  "description": "Formas de comunicación y enlaces",
+  "summary": "<ul class='list'><li>📧 Correo electrónico: egarciayranzo@gmail.com</li><li>📱 Instagram: @quiiquegarciia_</li></ul>",
+  "subsections": [
+    {
+      "id": "email",
+      "title": "Correo electrónico",
+      "subtitle": "Para consultas rápidas",
+      "items": [
+        { "badge": "Email", "title": "egarciayranzo@gmail.com", "text": "Respondo rápido a tus mensajes." }
+      ]
+    },
+    {
+      "id": "redes",
+      "title": "Redes sociales",
+      "subtitle": "Sígueme en mis perfiles",
+      "items": [
+        { "badge": "Instagram", "title": "@quiiquegarciia_", "text": "<a href='https://instagram.com/quiiquegarciia_' target='_blank'>instagram.com/quiiquegarciia_</a>" }
       ]
     }
   ]
