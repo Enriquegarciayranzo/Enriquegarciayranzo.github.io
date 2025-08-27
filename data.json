@@ -125,32 +125,39 @@
   ]
 }
 ,
+   {
+  "id": "proyectos",
+  "title": "Proyectos Personales",
+  "description": "Metas y aspiraciones que me motivan en la vida.",
+  "summary": "<ul class='list'><li>💻 Crear mi propia empresa de Inteligencia Artificial</li><li>👨‍👩‍👦 Formar una familia</li><li>😊 Alcanzar la máxima felicidad</li></ul>",
+  "subsections": [
     {
-      "id": "proyectos",
-      "title": "Proyectos Personales",
-      "description": "Pequeños retos y creaciones",
-      "summary": "<p>Algunos proyectos que muestran creatividad y curiosidad.</p>",
-      "subsections": [
-        {
-          "id": "ciencia",
-          "title": "Ciencia",
-          "subtitle": "Explorando el mundo",
-          "items": [
-            { "badge": "Experimento", "title": "Volcán casero", "text": "Con bicarbonato y vinagre." },
-            { "badge": "Robótica", "title": "Mini robot", "text": "Con sensores básicos." }
-          ]
-        },
-        {
-          "id": "arte",
-          "title": "Arte",
-          "subtitle": "Expresando ideas",
-          "items": [
-            { "badge": "Dibujo", "title": "Retratos", "text": "Lápiz y acuarela." },
-            { "badge": "Digital", "title": "Pixel art", "text": "Hecho en apps sencillas." }
-          ]
-        }
+      "id": "empresa",
+      "title": "Ser mi propio jefe",
+      "subtitle": "Crear mi propia empresa de Inteligencia Artificial.",
+      "items": [
+        { "badge": "IA", "title": "Sueño profesional", "text": "Cuando adquiera experiencia y conocimientos suficientes, fundar mi propia empresa en el sector de la Inteligencia Artificial." }
       ]
     },
+    {
+      "id": "familia",
+      "title": "Ser padre",
+      "subtitle": "Poder formar una familia.",
+      "items": [
+        { "badge": "Vida personal", "title": "Formar una familia", "text": "Un proyecto vital tan importante como cualquier logro profesional." }
+      ]
+    },
+    {
+      "id": "felicidad",
+      "title": "Ser feliz",
+      "subtitle": "Conseguir la máxima felicidad.",
+      "items": [
+        { "badge": "Objetivo de vida", "title": "Buscar la felicidad", "text": "Trabajar cada día en alcanzar la plenitud y disfrutar de lo que me rodea." }
+      ]
+    }
+  ]
+}
+ ,
     {
       "id": "contacto",
       "title": "Contacto",
