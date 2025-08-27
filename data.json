@@ -80,34 +80,51 @@
       ]
     }
   ]
-}
-,
+},
     {
-      "id": "hobbies",
-      "title": "Hobbies",
-      "description": "Tiempo libre y pasiones",
-      "summary": "<p>Aquí muestro lo que me divierte y motiva.</p>",
-      "subsections": [
-        {
-          "id": "musica",
-          "title": "Música",
-          "subtitle": "Escuchar y aprender",
-          "items": [
-            { "badge": "Guitarra", "title": "Clases básicas", "text": "Practicando acordes." },
-            { "badge": "Favorito", "title": "Rock", "text": "Grupos favoritos: Queen, Imagine Dragons." }
-          ]
-        },
-        {
-          "id": "videojuegos",
-          "title": "Videojuegos",
-          "subtitle": "Diversión y estrategia",
-          "items": [
-            { "badge": "Estrategia", "title": "Minecraft", "text": "Construcciones y mods." },
-            { "badge": "Deporte", "title": "FIFA", "text": "Partidos con amigos." }
-          ]
-        }
+  "id": "hobbies",
+  "title": "Hobbies",
+  "description": "Tiempo libre, pasiones y aficiones que me definen.",
+  "summary": "<ul class='list'><li>🎵 Música urbana y conciertos</li><li>🎤 Cantar y disfrutar del talento</li><li>🏀 Pasión por todo tipo de deportes</li><li>🍔 Probar hamburguesas nuevas</li></ul>",
+  "subsections": [
+    {
+      "id": "musica",
+      "title": "Música",
+      "subtitle": "Escuchar y descubrir sonidos.",
+      "items": [
+        { "badge": "Urbano", "title": "Artistas favoritos", "text": "Myke Towers, Quevedo y otros referentes de la música urbana." },
+        { "badge": "Otros géneros", "title": "Variedad musical", "text": "Me gustan también otros géneros, aunque no tanto como el urbano." }
       ]
     },
+    {
+      "id": "cantar",
+      "title": "Cantar",
+      "subtitle": "Un talento que disfruto y comparto.",
+      "items": [
+        { "badge": "Talento", "title": "Pasión por cantar", "text": "Se me da genial y aprovecho al máximo este talento." },
+        { "badge": "Conciertos", "title": "Vivir la música en directo", "text": "Me encanta asistir a conciertos y apreciar la buena música que tenemos en España." }
+      ]
+    },
+    {
+      "id": "deportes",
+      "title": "Deportes",
+      "subtitle": "Competitividad y ganas de jugar.",
+      "items": [
+        { "badge": "Competición", "title": "Más allá del baloncesto", "text": "Aunque solo practico baloncesto, disfruto jugando a cualquier deporte." },
+        { "badge": "Actitud", "title": "Siempre competitivo", "text": "Me gusta ganar y dar lo mejor en cada partido o actividad." }
+      ]
+    },
+    {
+      "id": "comida",
+      "title": "Comer",
+      "subtitle": "Mi hobbie favorito.",
+      "items": [
+        { "badge": "Hamburguesas", "title": "Probar cosas nuevas", "text": "Siempre que puedo me gusta descubrir y degustar hamburguesas diferentes." }
+      ]
+    }
+  ]
+}
+,
     {
       "id": "proyectos",
       "title": "Proyectos Personales",
