@@ -20,7 +20,7 @@
         {
           "id": "bachillerato",
           "title": "Bachillerato",
-          "subtitle": "Graduado en la Rama de Ciencias en el Instituto Dominicos.",
+          "subtitle": "Graduado en la Rama de Cien	cias en el Instituto Dominicos.",
           "body": "<p>Especialización en matemáticas, física y química. Participación en proyectos de investigación escolar y competiciones científicas.</p>"
         },
         {
@@ -38,17 +38,50 @@
       ]
     },
     {
-      "id": "deporte",
-      "title": "Deporte",
-      "description": "Entrenamientos, competiciones y objetivos por modalidad.",
-      "summary": "<p>Constancia y juego en equipo: fútbol, natación y atletismo.</p>",
-      "subsections": [
-        { "id": "futbol", "title": "Fútbol", "subtitle": "Mediocentro" },
-        { "id": "natacion", "title": "Natación", "subtitle": "Libre y espalda" },
-        { "id": "atletismo", "title": "Atletismo", "subtitle": "Resistencia" },
-        { "id": "logros", "title": "Logros deportivos", "subtitle": "Mejores momentos" }
+  "id": "deporte",
+  "title": "Deporte",
+  "description": "Trayectoria deportiva y experiencias en distintas disciplinas.",
+  "summary": "<ul class='list'><li>🏀 Baloncesto: Stadium Casablanca · Casademont Zaragoza · Club Baloncesto Zuera</li><li>⚽ Fútbol: Socio nº 40.000 del Atlético de Madrid (14 años de antigüedad)</li><li>🏊 Natación: Formación en Stadium Casablanca</li><li>🏆 Logros: Campeonatos en Cádiz y Huelva (Mini, Cadete, Junior)</li></ul>",
+  "subsections": [
+    {
+      "id": "baloncesto",
+      "title": "Baloncesto",
+      "subtitle": "Base anotador, con buena visión de juego y gran capacidad de trabajo.",
+      "items": [
+        { "badge": "Club", "title": "Stadium Casablanca", "text": "Formación y primeros equipos." },
+        { "badge": "Club", "title": "Casademont Zaragoza", "text": "Etapa de formación y competición." },
+        { "badge": "Club", "title": "Club Baloncesto Zuera", "text": "Competición a nivel autonómico." }
       ]
     },
+    {
+      "id": "futbol",
+      "title": "Fútbol",
+      "subtitle": "Aficionado y socio fiel.",
+      "items": [
+        { "badge": "Atleti", "title": "Socio nº 40.000", "text": "14 años de antigüedad como socio del Atlético de Madrid." }
+      ]
+    },
+    {
+      "id": "natacion",
+      "title": "Natación",
+      "subtitle": "Formación en técnicas de estilo libre y espalda.",
+      "items": [
+        { "badge": "Club", "title": "Stadium Casablanca", "text": "Etapa de formación deportiva." }
+      ]
+    },
+    {
+      "id": "logros",
+      "title": "Logros deportivos",
+      "subtitle": "Participación en campeonatos destacados.",
+      "items": [
+        { "badge": "Mini", "title": "Campeonato Mini Aragón", "text": "Cádiz" },
+        { "badge": "Cadete", "title": "Campeonato Cadete Club", "text": "Cádiz" },
+        { "badge": "Junior", "title": "Campeonato Junior Club", "text": "Huelva" }
+      ]
+    }
+  ]
+}
+,
     {
       "id": "hobbies",
       "title": "Hobbies",
