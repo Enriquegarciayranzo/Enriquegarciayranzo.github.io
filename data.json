@@ -38,146 +38,146 @@
       ]
     },
     {
-  "id": "deporte",
-  "title": "Deporte",
-  "description": "Trayectoria deportiva y experiencias en distintas disciplinas.",
-  "summary": "<ul class='list'><li>🏀 Baloncesto: Stadium Casablanca · Casademont Zaragoza · Club Baloncesto Zuera</li><li>⚽ Fútbol: Socio nº 40.000 del Atlético de Madrid (14 años de antigüedad)</li><li>🏊 Natación: Formación en Stadium Casablanca</li><li>🏆 Logros: Campeonatos en Cádiz y Huelva (Mini, Cadete, Junior)</li></ul>",
-  "subsections": [
-    {
-      "id": "baloncesto",
-      "title": "Baloncesto",
-      "subtitle": "Base anotador, con buena visión de juego y gran capacidad de trabajo.",
-      "items": [
-        { "badge": "Club", "title": "Stadium Casablanca", "text": "Formación y primeros equipos." },
-        { "badge": "Club", "title": "Casademont Zaragoza", "text": "Etapa de formación y competición." },
-        { "badge": "Club", "title": "Club Baloncesto Zuera", "text": "Competición a nivel autonómico." }
+      "id": "deporte",
+      "title": "Deporte",
+      "description": "Trayectoria deportiva y experiencias en distintas disciplinas.",
+      "summary": "<ul class='list'><li>🏀 Baloncesto: Stadium Casablanca · Casademont Zaragoza · Club Baloncesto Zuera</li><li>⚽ Fútbol: Socio nº 40.000 del Atlético de Madrid (14 años de antigüedad)</li><li>🏊 Natación: Formación en Stadium Casablanca</li><li>🏆 Logros: Campeonatos en Cádiz y Huelva (Mini, Cadete, Junior)</li></ul>",
+      "subsections": [
+        {
+          "id": "baloncesto",
+          "title": "Baloncesto",
+          "subtitle": "Base anotador, con buena visión de juego y gran capacidad de trabajo.",
+          "items": [
+            { "badge": "Club", "title": "Stadium Casablanca", "text": "Formación y primeros equipos." },
+            { "badge": "Club", "title": "Casademont Zaragoza", "text": "Etapa de formación y competición." },
+            { "badge": "Club", "title": "Club Baloncesto Zuera", "text": "Competición a nivel autonómico." }
+          ]
+        },
+        {
+          "id": "futbol",
+          "title": "Fútbol",
+          "subtitle": "Aficionado y socio fiel.",
+          "items": [
+            { "badge": "Atleti", "title": "Socio nº 40.000", "text": "14 años de antigüedad como socio del Atlético de Madrid." }
+          ]
+        },
+        {
+          "id": "natacion",
+          "title": "Natación",
+          "subtitle": "Formación en técnicas de estilo libre y espalda.",
+          "items": [
+            { "badge": "Club", "title": "Stadium Casablanca", "text": "Etapa de formación deportiva." }
+          ]
+        },
+        {
+          "id": "logros",
+          "title": "Logros deportivos",
+          "subtitle": "Participación en campeonatos destacados.",
+          "items": [
+            { "badge": "Mini", "title": "Campeonato Mini Aragón", "text": "Cádiz" },
+            { "badge": "Cadete", "title": "Campeonato Cadete Club", "text": "Cádiz" },
+            { "badge": "Junior", "title": "Campeonato Junior Club", "text": "Huelva" }
+          ]
+        }
       ]
     },
     {
-      "id": "futbol",
-      "title": "Fútbol",
-      "subtitle": "Aficionado y socio fiel.",
-      "items": [
-        { "badge": "Atleti", "title": "Socio nº 40.000", "text": "14 años de antigüedad como socio del Atlético de Madrid." }
+      "id": "hobbies",
+      "title": "Hobbies",
+      "description": "Tiempo libre, pasiones y aficiones que me definen.",
+      "summary": "<ul class='list'><li>🎵 Música urbana y conciertos</li><li>🎤 Cantar y disfrutar del talento</li><li>🏀 Pasión por todo tipo de deportes</li><li>🍔 Probar hamburguesas nuevas</li></ul>",
+      "subsections": [
+        {
+          "id": "musica",
+          "title": "Música",
+          "subtitle": "Escuchar y descubrir sonidos.",
+          "items": [
+            { "badge": "Urbano", "title": "Artistas favoritos", "text": "Myke Towers, Quevedo y otros referentes de la música urbana." },
+            { "badge": "Otros géneros", "title": "Variedad musical", "text": "Me gustan también otros géneros, aunque no tanto como el urbano." }
+          ]
+        },
+        {
+          "id": "cantar",
+          "title": "Cantar",
+          "subtitle": "Un talento que disfruto y comparto.",
+          "items": [
+            { "badge": "Talento", "title": "Pasión por cantar", "text": "Se me da genial y aprovecho al máximo este talento." },
+            { "badge": "Conciertos", "title": "Vivir la música en directo", "text": "Me encanta asistir a conciertos y apreciar la buena música que tenemos en España." }
+          ]
+        },
+        {
+          "id": "deportes",
+          "title": "Deportes",
+          "subtitle": "Competitividad y ganas de jugar.",
+          "items": [
+            { "badge": "Competición", "title": "Más allá del baloncesto", "text": "Aunque solo practico baloncesto, disfruto jugando a cualquier deporte." },
+            { "badge": "Actitud", "title": "Siempre competitivo", "text": "Me gusta ganar y dar lo mejor en cada partido o actividad." }
+          ]
+        },
+        {
+          "id": "comida",
+          "title": "Comer",
+          "subtitle": "Mi hobbie favorito.",
+          "items": [
+            { "badge": "Hamburguesas", "title": "Probar cosas nuevas", "text": "Siempre que puedo me gusta descubrir y degustar hamburguesas diferentes." }
+          ]
+        }
       ]
     },
     {
-      "id": "natacion",
-      "title": "Natación",
-      "subtitle": "Formación en técnicas de estilo libre y espalda.",
-      "items": [
-        { "badge": "Club", "title": "Stadium Casablanca", "text": "Etapa de formación deportiva." }
+      "id": "proyectos",
+      "title": "Proyectos Personales",
+      "description": "Metas y aspiraciones que me motivan en la vida.",
+      "summary": "<ul class='list'><li>💻 Crear mi propia empresa de Inteligencia Artificial</li><li>👨‍👩‍👦 Formar una familia</li><li>😊 Alcanzar la máxima felicidad</li></ul>",
+      "subsections": [
+        {
+          "id": "empresa",
+          "title": "Ser mi propio jefe",
+          "subtitle": "Crear mi propia empresa de Inteligencia Artificial.",
+          "items": [
+            { "badge": "IA", "title": "Sueño profesional", "text": "Cuando adquiera experiencia y conocimientos suficientes, fundar mi propia empresa en el sector de la Inteligencia Artificial." }
+          ]
+        },
+        {
+          "id": "familia",
+          "title": "Ser padre",
+          "subtitle": "Poder formar una familia.",
+          "items": [
+            { "badge": "Vida personal", "title": "Formar una familia", "text": "Un proyecto vital tan importante como cualquier logro profesional." }
+          ]
+        },
+        {
+          "id": "felicidad",
+          "title": "Ser feliz",
+          "subtitle": "Conseguir la máxima felicidad.",
+          "items": [
+            { "badge": "Objetivo de vida", "title": "Buscar la felicidad", "text": "Trabajar cada día en alcanzar la plenitud y disfrutar de lo que me rodea." }
+          ]
+        }
       ]
     },
     {
-      "id": "logros",
-      "title": "Logros deportivos",
-      "subtitle": "Participación en campeonatos destacados.",
-      "items": [
-        { "badge": "Mini", "title": "Campeonato Mini Aragón", "text": "Cádiz" },
-        { "badge": "Cadete", "title": "Campeonato Cadete Club", "text": "Cádiz" },
-        { "badge": "Junior", "title": "Campeonato Junior Club", "text": "Huelva" }
-      ]
-    }
-  ]
-},
-    {
-  "id": "hobbies",
-  "title": "Hobbies",
-  "description": "Tiempo libre, pasiones y aficiones que me definen.",
-  "summary": "<ul class='list'><li>🎵 Música urbana y conciertos</li><li>🎤 Cantar y disfrutar del talento</li><li>🏀 Pasión por todo tipo de deportes</li><li>🍔 Probar hamburguesas nuevas</li></ul>",
-  "subsections": [
-    {
-      "id": "musica",
-      "title": "Música",
-      "subtitle": "Escuchar y descubrir sonidos.",
-      "items": [
-        { "badge": "Urbano", "title": "Artistas favoritos", "text": "Myke Towers, Quevedo y otros referentes de la música urbana." },
-        { "badge": "Otros géneros", "title": "Variedad musical", "text": "Me gustan también otros géneros, aunque no tanto como el urbano." }
-      ]
-    },
-    {
-      "id": "cantar",
-      "title": "Cantar",
-      "subtitle": "Un talento que disfruto y comparto.",
-      "items": [
-        { "badge": "Talento", "title": "Pasión por cantar", "text": "Se me da genial y aprovecho al máximo este talento." },
-        { "badge": "Conciertos", "title": "Vivir la música en directo", "text": "Me encanta asistir a conciertos y apreciar la buena música que tenemos en España." }
-      ]
-    },
-    {
-      "id": "deportes",
-      "title": "Deportes",
-      "subtitle": "Competitividad y ganas de jugar.",
-      "items": [
-        { "badge": "Competición", "title": "Más allá del baloncesto", "text": "Aunque solo practico baloncesto, disfruto jugando a cualquier deporte." },
-        { "badge": "Actitud", "title": "Siempre competitivo", "text": "Me gusta ganar y dar lo mejor en cada partido o actividad." }
-      ]
-    },
-    {
-      "id": "comida",
-      "title": "Comer",
-      "subtitle": "Mi hobbie favorito.",
-      "items": [
-        { "badge": "Hamburguesas", "title": "Probar cosas nuevas", "text": "Siempre que puedo me gusta descubrir y degustar hamburguesas diferentes." }
-      ]
-    }
-  ]
-}
-,
-   {
-  "id": "proyectos",
-  "title": "Proyectos Personales",
-  "description": "Metas y aspiraciones que me motivan en la vida.",
-  "summary": "<ul class='list'><li>💻 Crear mi propia empresa de Inteligencia Artificial</li><li>👨‍👩‍👦 Formar una familia</li><li>😊 Alcanzar la máxima felicidad</li></ul>",
-  "subsections": [
-    {
-      "id": "empresa",
-      "title": "Ser mi propio jefe",
-      "subtitle": "Crear mi propia empresa de Inteligencia Artificial.",
-      "items": [
-        { "badge": "IA", "title": "Sueño profesional", "text": "Cuando adquiera experiencia y conocimientos suficientes, fundar mi propia empresa en el sector de la Inteligencia Artificial." }
-      ]
-    },
-    {
-      "id": "familia",
-      "title": "Ser padre",
-      "subtitle": "Poder formar una familia.",
-      "items": [
-        { "badge": "Vida personal", "title": "Formar una familia", "text": "Un proyecto vital tan importante como cualquier logro profesional." }
-      ]
-    },
-    {
-      "id": "felicidad",
-      "title": "Ser feliz",
-      "subtitle": "Conseguir la máxima felicidad.",
-      "items": [
-        { "badge": "Objetivo de vida", "title": "Buscar la felicidad", "text": "Trabajar cada día en alcanzar la plenitud y disfrutar de lo que me rodea." }
-      ]
-    }
-  ]
-}
- ,
-    {
-  "id": "contacto",
-  "title": "Contacto",
-  "description": "Formas de comunicación y enlaces",
-  "summary": "<ul class='list'><li>📧 Correo electrónico: egarciayranzo@gmail.com</li><li>📱 Instagram: @quiiquegarciia_</li></ul>",
-  "subsections": [
-    {
-      "id": "email",
-      "title": "Correo electrónico",
-      "subtitle": "Para consultas rápidas",
-      "items": [
-        { "badge": "Email", "title": "egarciayranzo@gmail.com", "text": "Respondo rápido a tus mensajes." }
-      ]
-    },
-    {
-      "id": "redes",
-      "title": "Redes sociales",
-      "subtitle": "Sígueme en mis perfiles",
-      "items": [
-        { "badge": "Instagram", "title": "@quiiquegarciia_", "text": "<a href='https://instagram.com/quiiquegarciia_' target='_blank'>instagram.com/quiiquegarciia_</a>" }
+      "id": "contacto",
+      "title": "Contacto",
+      "description": "Formas de comunicación y enlaces",
+      "summary": "<ul class='list'><li>📧 Correo electrónico: egarciayranzo@gmail.com</li><li>📱 Instagram: @quiiquegarciia_</li></ul>",
+      "subsections": [
+        {
+          "id": "email",
+          "title": "Correo electrónico",
+          "subtitle": "Para consultas rápidas",
+          "items": [
+            { "badge": "Email", "title": "egarciayranzo@gmail.com", "text": "Respondo rápido a tus mensajes." }
+          ]
+        },
+        {
+          "id": "redes",
+          "title": "Redes sociales",
+          "subtitle": "Sígueme en mis perfiles",
+          "items": [
+            { "badge": "Instagram", "title": "@quiiquegarciia_", "text": "<a href='https://instagram.com/quiiquegarciia_' target='_blank'>instagram.com/quiiquegarciia_</a>" }
+          ]
+        }
       ]
     }
   ]
