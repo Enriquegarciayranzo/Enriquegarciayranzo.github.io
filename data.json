@@ -4,7 +4,6 @@
     "tag": "#Aprender • #Jugar • #Crecer",
     "title": "Web sobre Enrique Garcia Yranzo",
     "subtitle": "Estudiante joven y deportista constante. Aquí está mi camino.",
-    "image": "img/hero.jpg",
     "button1": { "text": "Ver Estudios",  "to": "estudios"  },
     "button2": { "text": "Ver Deporte",   "to": "deporte"   },
     "button3": { "text": "Ver Hobbies",   "to": "hobbies"   },
@@ -158,4 +157,28 @@
     }
   ]
 }
-
+ ,
+    {
+  "id": "contacto",
+  "title": "Contacto",
+  "description": "Formas de comunicación y enlaces",
+  "summary": "<ul class='list'><li>📧 Correo electrónico: egarciayranzo@gmail.com</li><li>📱 Instagram: @quiiquegarciia_</li></ul>",
+  "subsections": [
+    {
+      "id": "email",
+      "title": "Correo electrónico",
+      "subtitle": "Para consultas rápidas",
+      "items": [
+        { "badge": "Email", "title": "egarciayranzo@gmail.com", "text": "Respondo rápido a tus mensajes." }
+      ]
+    },
+    {
+      "id": "redes",
+      "title": "Redes sociales",
+      "subtitle": "Sígueme en mis perfiles",
+      "items": [
+        { "badge": "Instagram", "title": "@quiiquegarciia_", "text": "<a href='https://instagram.com/quiiquegarciia_' target='_blank'>instagram.com/quiiquegarciia_</a>" }
+      ]
+    }
+  ]
+}
