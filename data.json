@@ -1,7 +1,7 @@
 {
   "site": { "name": "Enrique Garcia Yranzo" },
   "hero": {
-    "tag": "#Aprender • #Jugar • #Crecer",
+    "tag": "#Aprender • #Mejorar • #Crecer",
     "title": "Web sobre Enrique Garcia Yranzo",
     "subtitle": "Estudiante joven y deportista constante. Aquí está mi camino.",
     "button1": { "text": "Ver Estudios",  "to": "estudios"  },
@@ -167,7 +167,7 @@
           "title": "Correo electrónico",
           "subtitle": "Para consultas rápidas",
           "items": [
-            { "badge": "Email", "title": "egarciayranzo@gmail.com", "text": "Respondo rápido a tus mensajes." }
+            { "badge": "Email", "title": "egarciayranzo@gmail.com", "text": "Respondo en 24 horas." }
           ]
         },
         {
