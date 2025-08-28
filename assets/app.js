@@ -3,7 +3,7 @@
 const state = { data:null };
 
 async function init(){
-  const res = await fetch('data.json');
+  const res = await fetch('data.json?v=' + Date.now(), { cache: 'no-store' });
   state.data = await res.json();
   document.title = "Enrique García Yranzo";
   renderHeader();
